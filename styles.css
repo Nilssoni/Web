@@ -1,3 +1,20 @@
-h1{
-    color:red;
+#main-heading{
+    color:#000000;
+    background-color: #bbb5b5;
+}
+#biography-paragraph{
+    color:#000000;
+    background-color: #bbb5b5;
+}
+#education-heading{
+    color:#000000;
+    background-color: #bbb5b5;
+}
+#education-university{
+    color:#000000;
+    background-color: #bbb5b5;
+}
+#Hobby-list{
+    color:#000000;
+    background-color: #bbb5b5;
 }
