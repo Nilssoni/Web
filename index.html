@@ -3,26 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My website project</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Eero Martikainen portfolio</title>
+    <!--<link rel="stylesheet" href="styles.css">-->
 </head>
 <body>
     <!--Using id to handle better upcoming styles and what not maybe animations...-->
-    <h1 id="main-heading">Eero Martikainen</h1>
-    <p id="biography-paragraph">Hello and welcome to my site.<br> In this brief and really basic site, im goin to tell you about my self.</p>
-    <h2 id="education-heading">Education</h2>
-    <p2 id="education-university">Im studying Information Technology at Oulu University of applied sciences.<br>
-    I started the school 2023 start of the Autumn.<br>
-    Second year student in short.</p2>
-
-    <!--<ul></ul> tag is used to create an unordered list.-->
-    <ul id="Hobby-list">My hobbies include
-        <!--<li></li> tag is used to define list items-->
-        <li>Classic cars</li>
-        <li>Motorcycles</li>
-        <li>Gaming</li>
-        <li>Fishing</li>
-        <li>Cooking</li>
-    </ul>
+    <header>
+        <h1 id="main-heading">Eero Martikainen</h1>
+        <img id="Spurdo-sissi" src="images\spurdo_sissi.jpg" alt="Spurdo sissi">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Articles</h2>
+            <article>
+                <h3>Article 1</h3>
+                <p>This is the contect for article 1</p>
+            </article>
+            <article>
+                <h3>Article 2</h3>
+                <p>This is the contect for article 2</p>
+            </article>
+        </section>
+        <aside>
+            <h2>Related topics</h2>
+            <ul>
+                <li><a href="#">Topic 1</a></li>
+                <li><a href="#">Topic 2</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Eero Martikainen. All rights reserved.</p>
+        <p>
+            <a href="https://github.com/Nilssoni" target="_blank">Github</a>
+            <a href="https://linkedin.com/in/eero-martikainen-184786132" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
 </body>
 </html>
