@@ -1,20 +1,38 @@
-#main-heading{
-    color:#000000;
-    background-color: #bbb5b5;
+
+table, th, td {
+    border: 1px solid black;
+    width: max-content;
 }
-#biography-paragraph{
-    color:#000000;
-    background-color: #bbb5b5;
+
+form {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: fit-content;
+    transition: all 0.3s;
 }
-#education-heading{
-    color:#000000;
-    background-color: #bbb5b5;
+#name::placeholder {
+    color: #999;
+    opacity: 1;
+    transition: opacity 0.3 ease;
 }
-#education-university{
-    color:#000000;
-    background-color: #bbb5b5;
+#name:focus::placeholder{
+    opacity: 0;
 }
-#Hobby-list{
-    color:#000000;
-    background-color: #bbb5b5;
+#email::placeholder {
+    color: #999;
+    opacity: 1;
+    transition: opacity 0.3 ease;
+}
+#email:focus::placeholder{
+    opacity: 0;
+}
+#message::placeholder {
+    color: #999;
+    opacity: 1;
+    transition: opacity 0.3 ease;
+}
+#message:focus::placeholder{
+    opacity: 0;
 }
