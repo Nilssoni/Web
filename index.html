@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eero Martikainen portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="app.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eero Martikainen portfolio</title>
+
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="styles.css">
+        <script src="app.js"></script>
+    </head>
 <body id="mainBody">
-    <!--Using id to handle better upcoming styles and what not maybe animations...-->
     <header>
         <h1 id="main-heading">Eero Martikainen</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>        
-        <img id="Spurdo-sissi" src="images\spurdo_sissi.jpg" alt="Spurdo sissi">        
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#projects">Projects</a>
+            <a href="javascript:void(0);" class="icon" onclick="navigation()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <!--
+        <img id="Spurdo-sissi" src="images\spurdo_sissi.jpg" alt="Spurdo sissi">
+    -->
     </header>
     <main>
         <section id="topics">
