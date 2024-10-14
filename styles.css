@@ -1,3 +1,25 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-heading {
+    color: blue;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 table, th, td {
     border: 1px solid black;
