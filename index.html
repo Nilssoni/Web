@@ -12,28 +12,31 @@
         <script src="app.js"></script>
     </head>
 <body id="mainBody">
+
+    <!--Topnav section-->
+    
+    <nav class="topnav" id="myTopnav">
+        <a href="/" class="active">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+        <a href="#projects">Projects</a>
+        <a href="javascript:void(0);" class="icon" onclick="navigation()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+        <!--Header section-->
     <header id="header">
-        <nav class="topnav" id="myTopnav">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About Me</a>
-            <a href="#contact">Contact</a>
-            <a href="#projects">Projects</a>
-            <a href="javascript:void(0);" class="icon" onclick="navigation()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </nav>
             <section>
-            <h1>Eero Martikainen</h1>
-                <h2>Software Engineering Student Portfolio</h2>
-                    <p>Oulu University of Applied Sciences<br>
-                        Oulu, Finland<br><br>
-                    </p>
+                <h1>Eero Martikainen</h1>
+                    <h2>Software Engineering Student Portfolio</h2>
+                        <p>Oulu University of Applied Sciences<br>
+                            Oulu, Finland<br><br>
+                        </p>
             </section>
-                    <!--
-        <img id="Spurdo-sissi" src="images\spurdo_sissi.jpg" alt="Spurdo sissi">
-    -->
     </header>
     <main>
+
+        <!--About section-->
         <section id="about" class="about">
             <h2>About Me</h2>
             <article>
@@ -52,36 +55,26 @@
                 </ul>
             </aside>
         </section>
+
+        <!--Project section-->
         <section id="projects">
-            <table id="table">
-                <tr>
-                    <th>Project</th>
-                    <th>Started</th>
-                    <th>Finished</th>
-                </tr>
-                <tr>
-                    <td>Working Hours Tracker</td>
-                    <td>Planning stage</td>
-                    <td>Dont Know</td>
-                </tr>
-                <tr>
-                    <td>Calculator</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>To-do list</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Text editor</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
+            <h2>Projects</h2>
+            <table id="projectTable">
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="projectTableBody">
+                    <!-- Projects will be dynamically inserted here -->
+                </tbody>
             </table>
         </section>
     </main>
+
+    <!--Contact section-->
     <section id="contact" class="form">
         <h2>Contact Me</h2>
             <form id="contactForm" novalidate>
@@ -107,6 +100,8 @@
                 
             </form>
     </section>
+
+    <!--Footer section-->
     <footer>
         <p>&copy; 2024 Eero Martikainen. All rights reserved.</p>
         <ul>
