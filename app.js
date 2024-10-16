@@ -2,6 +2,10 @@ function confirmLeaving(){
     const confirmation = confirm("You are about to leave this site. Do you want to continue?");
     return confirmation;
 }
+function confirmDownload(){
+    const confirmation = confirm("You are about to Download a file. File is a test pdf file, contains Lorem Ipsum");
+    return confirmation;
+}
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function navigation() {
