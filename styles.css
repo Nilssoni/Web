@@ -61,7 +61,15 @@ html {
   }
 }
 
+#mainBody{
+  background-color: #6e6e6e;
+}
 
+#header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 /*----------Header section----------*/
 
